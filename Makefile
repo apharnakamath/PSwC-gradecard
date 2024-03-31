@@ -8,5 +8,5 @@ gradecard: gradecard.c
 clean:
     rm -f gradecard
 
-zip: grade_card
+zip: gradecard
     zip -r gradecard.zip gradecard
