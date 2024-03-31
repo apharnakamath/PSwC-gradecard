@@ -3,7 +3,7 @@
 
 void calculateGrade(int marks[])     //grading function
 {
-    float avg,sum = 0,summ=0;
+    float avg,sum = 0;
     for(int i = 0; i < 15 ; i++)    //doing (ISA1+ISA2+ESA)/2
     {
         sum += (marks[i]/2);
